@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SP FoodExpress | Restaurant Food Ordering System</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="topbar"><div class="container"><span>📍 along Okpaka Road, before the market, Udu, Delta State, Nigeria</span><span>☎ 09012510510</span></div></div>
+<header class="nav"><div class="container navin">
+<a class="logo" href="index.html"><span class="logo-mark">SP</span> FoodExpress</a>
+<nav class="navlinks"><a href="#menu">Menu</a><a href="#about">About</a><a href="#contact">Contact</a><a href="login.html" id="navAccount">Login</a><a class="btn btn-primary" href="register.html">Create Account</a></nav>
+</div></header>
+
+<section class="hero"><div class="container hero-grid">
+<div><div class="eyebrow">Fresh • Fast • Local</div><h1>Great food, delivered your way.</h1><p>Order your favourite Nigerian meals from SP FoodExpress. Create an account, save favourites, track your orders and send private feedback directly to our team.</p>
+<div class="form-actions"><a class="btn btn-primary" href="#menu">Order Now</a><a class="btn btn-light" href="register.html">Join SP FoodExpress</a></div></div>
+<div class="hero-card"><div class="hero-food">🍛</div><p><b>SP Special</b><br>Smoky Party Jollof Rice, grilled chicken and our signature sides.</p></div>
+</div></section>
+
+<section class="section" id="menu"><div class="container">
+<div class="section-head"><div><h2>Our Menu</h2><p class="muted">Choose a meal, add it to your favourites or order immediately.</p></div><a class="btn btn-light" href="login.html">My Dashboard</a></div>
+<div class="searchbar"><input class="input" id="menuSearch" placeholder="Search for jollof, catfish, suya..."><select class="select" id="categoryFilter" style="max-width:210px"><option value="all">All categories</option></select></div>
+<div class="grid" id="menuGrid"></div>
+</div></section>
+
+<section class="section" id="about"><div class="container"><div class="card" style="padding:32px"><h2>Why SP FoodExpress?</h2><p class="muted">We combine a simple ordering experience with customer favourites and private service reviews. Your feedback is visible to our company team, helping us improve without turning your comments into a public social feed.</p></div></div></section>
+<section class="section" id="contact"><div class="container"><div class="grid">
+<div class="card" style="padding:25px"><h3>Visit Us</h3><p class="muted">along Okpaka Road, before the market, Udu, Delta State, Nigeria</p></div>
+<div class="card" style="padding:25px"><h3>Call Us</h3><p class="muted">09012510510</p></div>
+<div class="card" style="padding:25px"><h3>Customer Accounts</h3><p class="muted">Save your favourites, view orders and send private reviews from your dashboard.</p></div>
+</div></div></section>
+<footer class="footer"><div class="container footer-grid"><div><h3>SP FoodExpress</h3><p>Restaurant Food Ordering System.</p></div><div><b>Address</b><p>along Okpaka Road, before the market, Udu, Delta State, Nigeria</p></div><div><b>Phone</b><p>09012510510</p></div></div></footer>
+
+<button class="cart-fab" onclick="location.href='login.html'" title="Login to order">🛒<span class="cart-count" id="cartCount">0</span></button>
+<div class="toast"></div>
+<script src="js/data.js"></script><script src="js/app.js"></script>
+</body></html>
